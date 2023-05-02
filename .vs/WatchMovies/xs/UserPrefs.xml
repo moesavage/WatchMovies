@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{764AD3A3-F5DD-4851-805D-6140ADE09027}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WatchMovies PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WatchMovies/Views/Movies/Details.cshtml">
+    <Files>
+      <File FileName="WatchMovies/Controllers/MoviesController.cs" Line="34" Column="8" />
+      <File FileName="WatchMovies/Views/Movies/Details.cshtml" Line="11" Column="40" />
+      <File FileName="WatchMovies/Views/Movies/Create.cshtml" Line="1" Column="1" />
+      <File FileName="WatchMovies/Views/Movies/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WatchMovies/Views/Actors/Details.cshtml" Line="10" Column="30" />
+      <File FileName="WatchMovies/Controllers/ActorsController.cs" Line="1" Column="1" />
+      <File FileName="WatchMovies/Views/Producers/Details.cshtml" Line="1" Column="1" />
+      <File FileName="WatchMovies/Data/ViewModels/NewMovieVM.cs" Line="13" Column="18" />
+      <File FileName="WatchMovies/Models/Actor.cs" Line="8" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WatchMovies" expanded="True">
+            <Node name="WatchMovies" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Actors" expanded="True" />
+                <Node name="Movies" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
+                </Node>
+                <Node name="Producers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,88 @@
+﻿@model WatchMovies.Models.DTO.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<br />
+<h4 class="text-info">Login</h4>
+<hr />
+
+@*<style>
+        form {
+            border: 1px solid;
+            margin: auto;
+            margin-top: 10%;
+        }
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #aa048b;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        .msg {
+            padding: 0px;
+        }
+
+        .err {
+            color: red;
+        }
+    </style>*@
+
+
+<form asp-action="Login" method="post">
+
+    <div class="row">
+        <div class="col-md-4 mx-auto bordered">
+            <div class="form-group">
+                <label asp-for="Username"></label>
+                <input asp-for="Username" class="form-control" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <br />
+
+            @if (TempData["msg"] != null)
+            {
+                <div class="msg">
+                    <span class="err">@TempData["msg"]</span>
+                </div>
+            }
+            <div>
+                @*<a type="button" class="btn btn-primary" value="submit" href="/Home/Index" >Login</a>*@
+                <button type="submit" class="btn btn-primary">Login</button>
+                <br />
+                <a href="/UserAuthentication/Registration">Not a user! click here to sign up</a>
+            </div>
+
+        </div>
+    </div>
+
+</form>
+<hr />
+
+
+
+
+
